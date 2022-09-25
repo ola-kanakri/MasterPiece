@@ -104,7 +104,7 @@
                                                             <p>{{ $package->products_number }}</p>
                                                             </div>
 
-                                                        <h4>Doner Info</h4>
+                                                        <h4>Seller Info</h4>
                                                         <div class="mt-2 pr-6 ">
                                                             <P class='h5'>{{ $package->doner_name }}</P>
                                                             <P class='h5'>{{ $package->phone_number }}</P>
@@ -119,7 +119,7 @@
                                                                 {{-- <input type="hidden" name="user_id" value="{{ 1 }}"/> --}}
                                                                 <input type="hidden" name="status" value="{{ 1 }}"/>
                                                                 <div class="buttons d-flex flex-row mt-5 gap-3">
-                                                                                     	<button type="submit" class="btn btn-outline-dark" style="background-color:#f7ca44;color:#656262">RESERVE IT</button>
+                                                                                     	{{-- <button type="submit" class="btn btn-outline-dark" style="background-color:#f7ca44;color:#656262">RESERVE IT</button> --}}
                                                                           </div>
                                                             </form>
 

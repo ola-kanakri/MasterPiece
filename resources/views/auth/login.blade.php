@@ -21,7 +21,7 @@ top: 13px;
 
 .gradient-custom-2 {
 /* fallback for old browsers */
-background:white;
+background:#c9c9c93d;
 
 /* Chrome 10-25, Safari 5.1-6 */
 background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
@@ -34,6 +34,13 @@ background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 
 /* background-color: #4835d4; */
 /* background-color: #f7ca44; */
 
+}
+
+.log 
+{
+    margin-top: 72px;
+    padding-left: 3rem;
+    margin-left: 40px;
 }
 @media (min-width: 992px) {
 .card-registration-2 .bg-indigo {
@@ -61,17 +68,17 @@ border-bottom-right-radius: 15px;
       <div class="col-8">
         <div class="card card-registration card-registration-2" style="border-radius: 15px; height:550px">
           <div class="card-body p-0">
-            <div class="row g-0">
+            {{-- <div class="row g-0"> --}}
               {{-- <div class="col-lg-6" style="background-image: url('https://images.unsplash.com/photo-1608535002897-27b2aa592456?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHZvbHVudGVlcnxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60');
               border-bottom-left-radius: 15px; border-top-left-radius: 15px; background-size: cover;"> --}}
 
-              <div class="col-lg-6" 
-              border-bottom-left-radius: 15px; border-top-left-radius: 15px; background-size: cover;>
+              {{-- <div class="col-lg-6" 
+              border-bottom-left-radius: 15px; border-top-left-radius: 15px; background-size: cover;> --}}
 
-              </div>
+              {{-- </div> --}}
 
-              <div class="col-lg-6 bg-indigo" style="height:550px">
-                <div class="p-5">
+              <div class="col-lg-10 bg-indigo" style="height:550px">
+                <div class="log">
                   <h3 class="fw-normal mb-3">LOGIN</h3>
 
                   <div class="mb-4 pb-2">
@@ -131,7 +138,7 @@ border-bottom-right-radius: 15px;
                 </div>
               </div>
             </div>
-          </div>
+          {{-- </div> --}}
         </div>
       </div>
     </div>

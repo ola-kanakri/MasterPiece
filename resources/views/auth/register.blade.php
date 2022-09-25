@@ -21,7 +21,7 @@ top: 13px;
 
 .gradient-custom-2 {
 /* fallback for old browsers */
-background: white;
+background: #c9c9c93d;
 
 /* Chrome 10-25, Safari 5.1-6 */
 background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
@@ -34,6 +34,12 @@ background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 
 /* background-color: #4835d4; */
 /* background-color: #f7ca44d9; */
 
+}
+
+.pass
+{
+    margin-top: 105px;
+    padding-right: 3rem;
 }
 @media (min-width: 992px) {
 .card-registration-2 .bg-indigo {
@@ -58,7 +64,7 @@ border-bottom-right-radius: 15px;
   <div class="container py-5 h-85" >
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-9">
-        <div class="card card-registration card-registration-2" style="border-radius: 15px; height:650px">
+        <div class="card card-registration card-registration-2" style="border-radius: 15px; height:650px ">
           <div class="card-body p-0">
             <div class="row g-0">
               {{-- <div class="col-lg-6" style="background-image: url('images/m.png'); --}}
@@ -128,7 +134,7 @@ border-bottom-right-radius: 15px;
                 </div>
               </div>
               <div class="col-lg-6 bg-indigo " style="height: 650px">
-                <div class="p-5">
+                <div class="pass">
                   {{-- <h3 class="fw-normal mb-3">Credential Information</h3> --}}
 
                   <div class="row">
@@ -172,7 +178,7 @@ border-bottom-right-radius: 15px;
                         </div>
                       </div>
 
-                  <button type="submit" class="btn btn-light btn-lg d-flex justify-content-center"
+                  <button type="submit" class="btn btn-dark btn-lg d-flex justify-content-center"
                     data-mdb-ripple-color="dark">Register</button>
 
 
